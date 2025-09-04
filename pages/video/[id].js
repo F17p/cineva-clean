@@ -1,46 +1,38 @@
 // pages/video/[id].js
-import ImageWithFallback from '../../components/ImageWithFallback'
-import videos from '../../data/videos.json'
+import SmartPlayer from '../../components/SmartPlayer'
+import movies from '../../data/movies.json'
 
 export async function getStaticPaths() {
-  const paths = videos.map(v => ({ params: { id: v.id } }))
+  const paths = movies.map(v => ({ params: { id: v.id } }))
   return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params }) {
-  const video = videos.find(v => v.id === params.id) || null
+  const video = movies.find(v => v.id === params.id) || null
   return { props: { video } }
 }
 
 export default function VideoPage({ video }) {
   if (!video) return <div className="container"><p>Vídeo não encontrado</p></div>
 
-  const trailer = video.trailer || null
+  const { title, description, thumbnail, src, embed, youtubeId, genre, year } = video
 
   return (
     <div className="container">
-      <h1>{video.title}</h1>
-      <p style={{color:"#9ca3af"}}>{video.genre}</p>
-
-      <div style={{marginTop:12, borderRadius:8, overflow:"hidden", background:"#000", aspectRatio:"16/9"}}>
-        {trailer ? (
-          <iframe
-            src={trailer}
-            title={video.title}
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        ) : (
-          <video controls src={video.src || ""} style={{width:"100%", height:"100%", objectFit:"cover"}} />
-        )}
-      </div>
+      <h1 style={{marginBottom:4}}>{title}</h1>
+      <p style={{color:'#9ca3af', marginTop:0}}>{genre} • {year}</p>
 
       <div style={{marginTop:12}}>
-        <p>{video.description}</p>
+        <SmartPlayer
+          src={src}
+          embed={embed}
+          youtubeId={youtubeId}
+          poster={thumbnail}
+          title={title}
+        />
       </div>
+
+      {description && <p style={{marginTop:12}}>{description}</p>}
     </div>
   )
 }
