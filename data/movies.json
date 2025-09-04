@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "A Origem",
+    "category": "Ficção Científica",
+    "year": 2010,
+    "url": "https://www.example.com/videos/origem.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/origem.jpg",
+    "summary": "Um ladrão que invade sonhos precisa realizar um último trabalho impossível: implantar uma ideia na mente de alguém.",
+    "source": "youtube"
+  },
+  {
+    "id": 2,
+    "title": "Matrix",
+    "category": "Ficção Científica",
+    "year": 1999,
+    "url": "https://www.example.com/videos/matrix.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/matrix.jpg",
+    "summary": "Um hacker descobre que o mundo é uma simulação e precisa escolher entre a verdade ou continuar preso na ilusão.",
+    "source": "youtube"
+  },
+  {
+    "id": 3,
+    "title": "Vingadores",
+    "category": "Ação",
+    "year": 2012,
+    "url": "https://www.example.com/videos/vingadores.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/vingadores.jpg",
+    "summary": "Heróis da Marvel unem forças para salvar o mundo da ameaça alienígena de Loki.",
+    "source": "youtube"
+  },
+  {
+    "id": 4,
+    "title": "Pantera Negra",
+    "category": "Ação",
+    "year": 2018,
+    "url": "https://www.example.com/videos/panteranegra.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/panteranegra.jpg",
+    "summary": "T'Challa retorna a Wakanda para assumir o trono e enfrentar inimigos que ameaçam seu povo.",
+    "source": "youtube"
+  },
+  {
+    "id": 5,
+    "title": "Homem de Ferro",
+    "category": "Ação",
+    "year": 2008,
+    "url": "https://www.example.com/videos/ironman.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/ironman.jpg",
+    "summary": "Um bilionário cria uma armadura de alta tecnologia para combater o crime.",
+    "source": "youtube"
+  },
+  {
+    "id": 6,
+    "title": "Capitão América",
+    "category": "Ação",
+    "year": 2011,
+    "url": "https://www.example.com/videos/capitao.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/capitao.jpg",
+    "summary": "Durante a Segunda Guerra Mundial, Steve Rogers se torna o supersoldado Capitão América.",
+    "source": "youtube"
+  },
+  {
+    "id": 7,
+    "title": "Doutor Estranho",
+    "category": "Ficção Científica",
+    "year": 2016,
+    "url": "https://www.example.com/videos/doctor.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/doctor.jpg",
+    "summary": "Um neurocirurgião arrogante encontra a magia e se torna o guardião das artes místicas.",
+    "source": "youtube"
+  },
+  {
+    "id": 8,
+    "title": "Thor",
+    "category": "Ação",
+    "year": 2011,
+    "url": "https://www.example.com/videos/thor.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/thor.jpg",
+    "summary": "O deus do trovão é banido de Asgard e precisa aprender humildade para recuperar seus poderes.",
+    "source": "youtube"
+  },
+  {
+    "id": 9,
+    "title": "Homem-Aranha",
+    "category": "Ação",
+    "year": 2002,
+    "url": "https://www.example.com/videos/spiderman.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/spiderman.jpg",
+    "summary": "Peter Parker ganha superpoderes e enfrenta o Duende Verde em sua primeira batalha como herói.",
+    "source": "youtube"
+  },
+  {
+    "id": 10,
+    "title": "Guardiões da Galáxia",
+    "category": "Aventura",
+    "year": 2014,
+    "url": "https://www.example.com/videos/guardioes.mp4",
+    "thumbnail": "https://www.example.com/thumbnails/guardioes.jpg",
+    "summary": "Um grupo improvável de desajustados precisa proteger a galáxia contra um tirano intergaláctico.",
+    "source": "youtube"
+  },
+  {
+    "id": 11,
+    "title": "Night of the Living Dead",
+    "category": "Terror",
+    "year": 1968,
+    "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead.mp4",
+    "thumbnail": "https://archive.org/services/img/night_of_the_living_dead",
+    "summary": "Clássico que definiu o gênero zumbi, mostrando sobreviventes presos em uma casa cercada por mortos-vivos.",
+    "source": "archive.org"
+  },
+  {
+    "id": 12,
+    "title": "Plan 9 from Outer Space",
+    "category": "Ficção Científica",
+    "year": 1959,
+    "url": "https://archive.org/download/Plan_9_from_Outer_Space/Plan_9_from_Outer_Space.mp4",
+    "thumbnail": "https://archive.org/services/img/Plan_9_from_Outer_Space",
+    "summary": "Alienígenas ressuscitam mortos em um plano bizarro para conquistar a Terra.",
+    "source": "archive.org"
+  },
+  {
+    "id": 13,
+    "title": "His Girl Friday",
+    "category": "Comédia",
+    "year": 1940,
+    "url": "https://archive.org/download/HisGirlFriday/HisGirlFriday.mp4",
+    "thumbnail": "https://archive.org/services/img/HisGirlFriday",
+    "summary": "Uma repórter determinada e seu ex-marido editor se enfrentam em meio a uma grande história.",
+    "source": "archive.org"
+  },
+  {
+    "id": 14,
+    "title": "Sherlock Holmes",
+    "category": "Mistério",
+    "year": 1916,
+    "url": "https://archive.org/download/sherlock_holmes_1916/sherlock_holmes_1916.mp4",
+    "thumbnail": "https://archive.org/services/img/sherlock_holmes_1916",
+    "summary": "Uma das primeiras adaptações do detetive mais famoso do mundo para o cinema mudo.",
+    "source": "archive.org"
+  }
+]
